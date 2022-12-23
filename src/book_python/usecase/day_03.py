@@ -50,20 +50,21 @@ que retornará uma tupla de todos os nomes da lista que possuem apenas
 letras minúsculas. 
 
 '''
-names = ["adam","kerry", "dickson", "John", "Mary", 
- "carol", "Rose" ]
 
-def return_lowercase(names):
-    '''
-       Receba uma lista verificar a primeira string da lista e se caso for lowercase add a uma nova lista
-    '''
-    letras_minusculas= []
+try:
+    names = ["adam","kerry", "dickson", "John","Mary", 
+   "carol", "Rose" ]
+   
+    def return_lowercase(names):
+        letras_minusculas= []
+        for l in names:
+            if l[0] == l[0].lower():
+                letras_minusculas.append(l)
+        letras_minusculas.sort()        
+        print(tuple(letras_minusculas))
+        return  tuple(letras_minusculas)
+except:
+    raise Exception("Sorry")
 
-    for l in names:
-        if l[0] ==   l[0].lower():
-            letras_minusculas.append(l)
-    letras_minusculas.sort()        
-    print(tuple(letras_minusculas))
-    return  tuple(letras_minusculas)
 
 return_lowercase(names)
