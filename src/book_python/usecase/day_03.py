@@ -64,7 +64,6 @@ try:
         print(tuple(letras_minusculas))
         return  tuple(letras_minusculas)
 except:
-    
     raise Exception("Sorry")
 
 
