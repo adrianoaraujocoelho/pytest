@@ -63,7 +63,7 @@ def insert_record(
     dados_conexao = (
         "Driver={SQL Server};"
         "Server=LAPTOP-E3EA17UG\SQLEXPRESS01;"
-        "Database=pocRestaurante;"
+        "Database=campo;"
     )
     # realizando a conexao
     conexao = pyodbc.connect(dados_conexao)
