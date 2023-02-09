@@ -1,6 +1,6 @@
 .venv
 __pycache__
-delta
+deltalake
 diversos
 sales_force
 .env
