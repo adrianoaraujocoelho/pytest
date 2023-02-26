@@ -10,7 +10,7 @@ try:
     print(env)
     openai.api_key = env['api_key']
 
-    #openai.api_key = "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"
+    #openai.api_key = ""
 
 
     # list engines
