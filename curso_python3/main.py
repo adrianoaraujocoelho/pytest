@@ -1,6 +1,6 @@
 
 from math import pi
-from help import helps
+from helps import helps
 import sys
 import errno
 

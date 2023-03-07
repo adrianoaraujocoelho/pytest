@@ -80,3 +80,19 @@ def word_index(list):
 #words1 = ["Hate", "remorse", "vengeance","deudneidni", "Testandoomedidor destring"]
 words1 = ["Hate", "remor", "venge","deudn", "Testa","todo"]
 word_index(words1)
+
+
+"""
+Escreva uma função chamada word_index que receba um argumento,
+uma lista de strings e retorna o índice da palavra mais longa na
+lista.
+Se não houver palavra mais longa (se todas as strings forem do mesmo
+length),
+a função deve retornar zero (0).
+
+Por exemplo, a lista
+abaixo deve retornar 2.
+palavras1 = ["ódio", "remorso", "vingança"]
+E esta lista abaixo, deve retornar zero (0)
+palavras2 = ["Amor", "Ódio"]
+"""
